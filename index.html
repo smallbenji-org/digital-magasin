@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="https://placehold.co/600x300" as="image" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Digital magasin</title>
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <h1>Digital Magasin</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://fisk.dk">Hjem</a>
+                </li>
+                <li>
+                    <a href="https://fisk.dk">Kategorier</a>
+                </li>
+                <li>
+                    <a href="https://fisk.dk">Om</a>
+                </li>
+                <li>
+                    <a href="https://fisk.dk">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+     </header>
+
+    <!-- Content -->
+    <div class="content">
+        <main>
+            <!-- Header IMG -->
+            <section>
+                <figure class="header-img" aria-label="te">
+                    <img src="https://placehold.co/600x300" alt="">
+                    <!-- <figcaption>Billede :D</figcaption> -->
+                </figure>
+            </section>
+            <!-- Hero title -->
+            <section>
+                <h1>Overskrift</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora perspiciatis, maiores alias molestias doloremque minima sint necessitatibus aliquid repudiandae dolore tempore possimus neque totam excepturi. Fugiat asperiores suscipit odio ea.</p>
+            </section>
+            <!-- Card list -->
+            <section>
+                <div class="card-list">
+                    <div class="card">
+                        <figure>
+                            <img src="https://placehold.co/600x300" alt="">
+                            <figcaption>Lorem Ipsum</figcaption>
+                        </figure>
+                        <div>
+                            <h3>Overskrift</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non maiores, commodi odio deserunt voluptates repellendus nobis qui tempora accusamus culpa ut eius, iste, aliquam quaerat eligendi. Doloribus modi est sapiente.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://placehold.co/600x300" alt="">
+                            <figcaption>Lorem Ipsum</figcaption>
+                        </figure>
+                        <div>
+                            <h3>Overskrift</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta architecto aliquam officia, veritatis voluptatem facere repudiandae fugiat a nesciunt, perspiciatis omnis obcaecati deserunt repellendus expedita distinctio quaerat ut iusto assumenda?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <div class="side-card">
+                <p>link</p>
+                <p>link</p>
+                <p>link</p>
+            </div>
+            <div class="side-card"></div>
+            <div class="side-card"></div>
+            <div class="side-card">
+                <h5>Til nyhedsbrev</h5>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <input type="submit" value="Tilmeld">
+                </form>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2024 Digital magasin
+        </p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(e) {
+            if (window.matchMedia) {
+                if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.body.classList.toggle("dark");
+                }
+                else {
+                    document.body.classList.toggle("light");
+                }
+            }
+        });
+    </script>
+</body>
+</html>

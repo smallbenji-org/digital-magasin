@@ -1,0 +1,75 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:where(h1) {
+  margin-block: 0.67em;
+  font-size: 2em;
+}
+
+header h1 {
+    padding: 2rem 0rem;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: 500;
+    width: fit-content;
+    text-align: center;
+    font-variant-caps: all-small-caps;
+}
+
+header nav {
+    padding: 0.7rem 0rem;
+    background-color: var(--background-secondary);
+}
+
+header ul {
+    padding-left: 0;
+    margin: auto;
+    width: fit-content;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 2rem;
+}
+
+header ul li:last-child {
+    margin-right: 0;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    padding: 1.5rem 0rem;
+    background-color: var(--background-secondary);
+}
+
+footer p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+}
+
+figure {
+    margin: 0px;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+main {
+    margin: 1rem;
+}

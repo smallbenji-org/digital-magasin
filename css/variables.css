@@ -1,0 +1,36 @@
+.light {
+    --font-color: rgba(0, 0, 0, 0.85);
+    --background-primary: rgba(0, 0, 0, 0.01);
+    --background-secondary: rgba(0, 0, 0, 0.2);
+    --header-background: rgba(0, 0, 0, 0.1);
+    
+    --border-color: rgba(0, 0, 0, 0.2);
+    --card-background: white;
+    
+    
+    --link-color: var(--font-color);
+    --link-hover-color: rgba(2, 129, 2, 0.781);
+
+    --border: 1px solid var(--border-color);
+    --border-radius: 5px;
+
+    --box-shadow: 5px 5px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.dark {
+    --font-color: rgba(255, 255, 255, 0.9);
+    --background-primary: rgba(0, 0, 0, 0.75);
+    --background-secondary: rgba(255, 255, 255, 0.1);
+    --header-background: rgba(255, 255, 255, 0.05);
+    
+    --border-color: rgba(255, 255, 255, 0.2);
+    --card-background: rgba(0, 0, 0, 0.35);
+
+    --link-color: var(--font-color);
+    --link-hover-color: rgba(2, 201, 2, 0.9);
+
+    --border: 1px solid var(--border-color);
+    --border-radius: 5px;
+
+    --box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
