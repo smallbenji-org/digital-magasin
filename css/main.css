@@ -9,7 +9,7 @@ h5 {
 .content {
     display: flex;
     margin: auto;
-    min-width: 500px;
+    min-width: 200px;
     max-width: 1000px;
 }
 
@@ -23,7 +23,23 @@ h5 {
     }
 
     aside {
-        margin: 0px 1rem 1rem;
+        margin: 0px 1rem 1rem 1rem !important;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card figure img {
+        width: 100%;
+    }
+
+    .card div {
+        padding: 0 1rem;
+    }
+
+    .card div h3 {
+        margin-top: 0;
     }
 }
 
